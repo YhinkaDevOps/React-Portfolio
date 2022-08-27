@@ -10,8 +10,8 @@ const Contact = () => {
             </div>
             <p className='text-gray-300 pt-4'>Email: yinkabakare30@gmail.com</p>
             <p className='text-gray-300 py-1 pb-2'>Phone: +2348130300335</p>
-           <input className='bg-[#ccd6f6] p-2' type="text" placeholder='Name' name='name' />
-           <input className='my-4 p-2 bg-[#ccd6f6]' type="email" placeholder='Email' name='email' />
+           <input className='bg-[#ccd6f6] p-2  ' type="text" placeholder='Name' name='name'  />
+           <input className='my-4 p-2 bg-[#ccd6f6] border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500' type="email" placeholder='Email' name='email'  />
            <textarea className='bg-[#ccd6f6] p-2' name="message" rows="10" placeholder='Message'></textarea>
            <button className='text-white border-2  hover:bg-pink-600 hover:border-pink-600 px-10 py-2 my-5 mx-auto flex items-center'>Submit</button>
         </form>

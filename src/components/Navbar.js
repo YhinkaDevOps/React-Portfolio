@@ -27,21 +27,21 @@ const Navbar = () => {
         </div>
 
         {/* Mobile */}
-        <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'}>
-            <li className='py-6 text-4xl'><Link onClick={handleClick} to='home' smooth={true} duration={500}>
+        <ul className={!nav ? 'hidden' : 'absolute top-0 right-0 w-1/2 h-screen bg-pink-600 flex flex-col justify-center items-center'}>
+            <li className='py-4 text-3xl'><Link onClick={handleClick} to='home' smooth={true} duration={500}>
             Home
           </Link></li>
-            <li className='py-6 text-4xl' ><Link onClick={handleClick} to='about' smooth={true} duration={500}>
+            <li className='py-4 text-3xl' ><Link onClick={handleClick} to='about' smooth={true} duration={500}>
             About
           </Link></li>
-            <li className='py-6 text-4xl'><Link onClick={handleClick} to='skills' smooth={true} duration={500}>
+            <li className='py-4 text-3xl'><Link onClick={handleClick} to='skills' smooth={true} duration={500}>
             Skills
           </Link></li>
-            <li className='py-6 text-4xl'><Link onClick={handleClick} to='project' smooth={true} duration={500}>
+            <li className='py-4 text-3xl'><Link onClick={handleClick} to='project' smooth={true} duration={500}>
             Project
           </Link></li>
-            <li className='py-6 text-4xl'><Link onClick={handleClick} to='contact' smooth={true} duration={500}>
-            Contact
+            <li className='py-4 text-3xl'><Link onClick={handleClick} to='contact' smooth={true} duration={500}>
+            Contact Me
           </Link></li>
         </ul>
 

@@ -33,3 +33,7 @@
 input, textarea{
   outline: none;
 }
+
+.Home-btn{
+  border: 1px solid white;
+}

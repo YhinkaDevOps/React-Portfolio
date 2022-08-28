@@ -46,7 +46,7 @@ const Navbar = () => {
         </ul>
 
         {/* Social-Icons */}
-        <div className=' hidden lg:flex fixed flex-col top-[35%] left-0'>
+        <div className=' hidden md:flex fixed flex-col top-[35%] left-0'>
           <ul>
             <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-5px] duration-300 bg-blue-600'>
               <a className='flex justify-between items-center w-full text-gray-300' href="https://www.linkedin.com/in/olayinka-bakare-0a253815a/" target={"_blank"}>Linkedin <FaLinkedinIn size={30}/></a>

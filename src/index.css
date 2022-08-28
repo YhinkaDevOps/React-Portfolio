@@ -45,3 +45,26 @@ input, textarea{
 .social_icon:hover{
   opacity: 0.5;
 }
+
+.homebio-container{
+  position: relative;
+}
+
+.home-img{
+  width: 250px;
+  position: absolute;
+  right:0;
+  margin-right: 15%;
+margin-left: auto;
+}
+
+
+
+.home-img img{
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.name_span{
+  color: #db2777
+}

@@ -1,5 +1,7 @@
 import React from 'react'
 import realestate from "../image/realestate.jpg"
+import project1 from "../image/project1.jpg"
+
 const Project = () => {
   return (
     <div name="project" className='w-full md:h-screen text-gray-300 bg-[#0a192f]'>
@@ -13,11 +15,11 @@ const Project = () => {
                 {/* container */}
                 <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4 '>
                   <div 
-                    style={{backgroundImage: `url(${realestate})`}}
+                    style={{backgroundImage: `url(${project1})`}}
                     className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     <div className='opacity-0 group-hover:opacity-100'>
                       <span className='text-2xl font-bold text-white tracking-wider'>
-                        React JS Application
+                        IMDB Movie fetch with API
                       </span>
                       <div className='pt-8 text-center'>
                         <a href="/">

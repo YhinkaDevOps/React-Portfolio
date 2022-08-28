@@ -14,7 +14,7 @@ const Skills = () => {
          {/* Container */}
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
           
-            <div className='sm:text-center text-left '>
+            <div className='sm:text-center text-left pb-5'>
                 <p className='text-4xl font-bold inline border-b-4 border-pink-600'>Skills</p>
             </div>
             
@@ -45,10 +45,6 @@ const Skills = () => {
                  <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-200 py-5'>
                     <img className='w-20 mx-auto' src={Github} alt="" />
                     <p className='p-5'>GITHUB</p>
-                </div>
-                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-200 py-5'>
-                    <img className='w-20 mx-auto' src={Mui} alt="" />
-                    <p className='p-5'>MATERIAL-UI</p>
                 </div>
             </div>
 

@@ -41,3 +41,7 @@ input, textarea{
 .Menu_links:hover{
     border-bottom: 1px solid rgb(233, 88, 112);
 }
+
+.social_icon:hover{
+  opacity: 0.5;
+}

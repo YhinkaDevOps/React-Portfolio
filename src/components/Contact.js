@@ -11,8 +11,8 @@ const Contact = () => {
             <p className='text-gray-300 pt-4'>Email: yinkabakare30@gmail.com</p>
             <p className='text-gray-300 py-1 pb-2'>Phone: +2348130300335</p>
             <div className=' flex space-x-3 mb-2 md:hidden   '>
-              <a  href="https://github.com/YhinkaDevOps" target={"_blank"}><BsGithub color='white' size={20}/></a>
-              <a href="https://www.linkedin.com/in/olayinka-bakare-0a253815a/" target={"_blank"}><BsLinkedin color='white' size={20}/></a>
+              <a className='social_icon' href="https://github.com/YhinkaDevOps" target={"_blank"}><BsGithub color='white' size={20}/></a>
+              <a className='social_icon' href="https://www.linkedin.com/in/olayinka-bakare-0a253815a/" target={"_blank"}><BsLinkedin color='white' size={20}/></a>
             </div>
            <input className='bg-[#ccd6f6] p-2  ' type="text" placeholder='Name' name='name'  />
            <input className='my-2 p-2 bg-[#ccd6f6]' type="email" placeholder='Email' name='email'  />

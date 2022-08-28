@@ -5,6 +5,7 @@ import JavaScript from "../image/javascript.png"
 import REACT from "../image/react.png"
 import Tailwind from "../image/tailwind.png"
 import Github from "../image/github.png"
+import Mui from "../image/MUI.png"
 
 
 const Skills = () => {
@@ -20,32 +21,36 @@ const Skills = () => {
                 <p className='py-4'>These are the technologies I've worked with</p>
             </div>
             <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
-                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-200'>
+                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-200 py-5'>
                     <img className='w-20 mx-auto' src={HTML} alt="HTML-ICON" />
-                    <p>HTML</p>
+                    <p className='p-5'>HTML</p>
                 </div>
 
-                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-200' >
+                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-200 py-5'  >
                     <img className='w-20 mx-auto' src={CSS} alt="" />
-                    <p>CSS</p>
+                    <p className='p-5'>CSS</p>
                 </div>
 
-                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-200'>
+                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-200 py-5'>
                     <img  className='w-20 mx-auto' src={JavaScript} alt="" />
-                    <p>JAVASCRIPT</p>
+                    <p className='p-5'>JAVASCRIPT</p>
                 </div>
 
-                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-200'>
+                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-200 py-5'>
                     <img className='w-20 mx-auto' src={REACT} alt="" />
-                    <p>REACT</p>
+                    <p className='p-5'>REACT</p>
                 </div>
-                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-200'>
+                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-200 py-5'>
                     <img className='w-20 mx-auto' src={Tailwind} alt="" />
-                    <p>TAILWIND</p>
+                    <p className='p-5'>TAILWIND</p>
                 </div>
-                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-200'>
+                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-200 py-5'>
                     <img className='w-20 mx-auto' src={Github} alt="" />
-                    <p>GITHUB</p>
+                    <p className='p-5'>GITHUB</p>
+                </div>
+                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-200 py-5'>
+                    <img className='w-20 mx-auto' src={Mui} alt="" />
+                    <p className='p-5'>MATERIAL-UI</p>
                 </div>
             </div>
 

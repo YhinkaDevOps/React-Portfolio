@@ -14,12 +14,11 @@ const Home = () => {
             I'm a Front-End Developer.
         </h2>
         <p className='text-[#8892b0] py-4 max-w-[700px]'>
-            I’m a front-end developer specializing in building ( and occasionally
-            designing) exceptional digital experiences. Currently, I’m focused on
+            I’m a front-end developer specializing in building exceptional digital experiences. Currently, I’m focused on
             building responsive front-end web applications.
         </p>
         <div >
-          <button className=' text-white group px-2 py-0.5 my-2 flex items-center hover:border-pink-600 hover:bg-pink-600 Home-btn'>
+          <button className=' text-white group px-2 py-1 my-2 flex items-center hover:border-pink-600 hover:bg-pink-600 rounded-md Home-btn '>
             <Link to='project' smooth={true} duration={500}>
               View Projects
             </Link>

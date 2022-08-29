@@ -1,6 +1,6 @@
 import React from 'react'
 import realestate from "../image/realestate.jpg"
-import project1 from "../image/project1.jpg"
+import project1 from "../image/project1.png"
 
 const Project = () => {
   return (

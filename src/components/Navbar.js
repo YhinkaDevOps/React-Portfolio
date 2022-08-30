@@ -17,7 +17,7 @@ const Navbar = () => {
             <li className='Menu_links font-bold'><Link  to="home" smooth={true}  duration={500}>Home</Link></li>
             <li className='Menu_links font-bold'><Link  to="about" smooth={true}  duration={500}>About</Link></li>
             <li className='Menu_links font-bold'><Link  to="skills" smooth={true}  duration={500}>Skills</Link></li>
-            <li className='Menu_links font-bold'><Link  to="project" smooth={true}  duration={500}>Project</Link></li>
+            <li className='Menu_links font-bold'><Link  to="project" smooth={true}  duration={500}>Projects</Link></li>
             <li className='Menu_links font-bold'><Link  to="contact" smooth={true}  duration={500}>Contact Me</Link></li>
           </ul>
 
@@ -38,7 +38,7 @@ const Navbar = () => {
             Skills
           </Link></li>
             <li className='py-4 text-3xl'><Link onClick={handleClick} to='project' smooth={true} duration={500}>
-            Project
+            Projects
           </Link></li>
             <li className='py-4 text-3xl'><Link onClick={handleClick} to='contact' smooth={true} duration={500}>
             Contact Me

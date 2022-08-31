@@ -7,7 +7,7 @@ const Home = () => {
     <div name='home' className='bg-[#0a192f] w-full h-screen'>
       {/* Container */}
       <div className='max-w-[1700px] mx-auto px-10 flex flex-col-reverse h-full md:flex-row items-center '>
-        <div className='homebio-container xl:mx-auto 2xl:mx-auto 2xl:ml-12 xl:ml-11 flex flex-col  mx-auto md:w-3/5 md:ml-10  space-y-3 '>
+        <div className='homebio-container xl:mx-auto 2xl:mx-auto lg:mt-10 2xl:ml-12 xl:ml-11 flex flex-col  mx-auto md:w-3/5 md:ml-10  space-y-1 '>
             <p className='text-pink-600 text-2xl lg:text-5xl xl:text-5xl 2xl:text-7xl'>I'm</p>
             <h1 className='text-3xl sm:text-4xl md:text-5xl font-bold text-[#ccd6f6]  2xl:text-7xl '>
                 Bakare <span className='name_span'>Olayinka</span>
@@ -28,7 +28,7 @@ const Home = () => {
             </button>
           </div>
         </div>
-          <div className='home-img mx-auto w-1/2   xl:ml-5 md:w-[24%] lg:w-[24%] xl:w-[25%] '>
+          <div className='home-img mx-auto w-1/2 xl:ml-5 md:w-[24%] lg:w-[24%] xl:w-[25%]  '>
             <img className=''  src={Yinkaimg} alt="" />
           </div>
        </div>

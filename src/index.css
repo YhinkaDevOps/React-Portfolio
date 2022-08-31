@@ -77,3 +77,9 @@ input, textarea{
     border-radius: 60%;
   }
 }
+
+@media (max-width: 375px) {
+  .home-img img {
+    border-radius: 90%;
+  }
+}

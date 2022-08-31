@@ -9,11 +9,11 @@ const Navbar = () => {
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300 ' >
         <div className='mx-5'>
-            <h1 className='text-3xl text-pink-600'>Olayinka</h1>
+            <h1 className='text-3xl 2xl:text-4xl text-pink-600'>Olayinka</h1>
         </div>
 
           {/* Menu */}
-          <ul className=' mx-6 hidden md:flex'>
+          <ul className=' mx-6 hidden md:flex lg:text-lg xl:text-xl xl:space-x-4 2xl:text-2xl 2xl:space-x-5'>
             <li className='Menu_links font-bold'><Link  to="home" smooth={true}  duration={500}>Home</Link></li>
             <li className='Menu_links font-bold'><Link  to="about" smooth={true}  duration={500}>About</Link></li>
             <li className='Menu_links font-bold'><Link  to="skills" smooth={true}  duration={500}>Skills</Link></li>

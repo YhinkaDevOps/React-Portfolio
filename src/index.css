@@ -46,18 +46,8 @@ input, textarea{
   opacity: 0.5;
 }
 
-
-
-.home-img{
-  
-  /* position: absolute;
-  right:0;
-  margin-right: 15%;
-  margin-left: auto; */
-}
-
 .home-img img{
-  border-radius: 50%;
+  /* border-radius: 50%; */
   object-fit: cover;
 }
 
@@ -65,3 +55,25 @@ input, textarea{
   color: #db2777
 }
 
+@media (min-width: 1536px) {
+  .home-img img {
+      border-radius: 90%;
+    }
+}
+@media (min-width: 1280px) and (max-width: 1535px) {
+  .home-img img{
+    border-radius: 80%;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .home-img img {
+    border-radius: 70%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .home-img img {
+    border-radius: 60%;
+  }
+}

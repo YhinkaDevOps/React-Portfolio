@@ -43,7 +43,7 @@ const Contact = () => {
            <input className="bg-[#ccd6f6] p-2 " type="text" name="subject" id="" placeholder='Subject'/>
            <input className='my-2 p-2 bg-[#ccd6f6]' type="email" placeholder='Email' name='email' required  />
            <textarea className='bg-[#ccd6f6] p-2' name="message" rows="8" placeholder='Message'required></textarea>
-           <button type="submit" className='text-white border-2  hover:bg-pink-600 hover:border-pink-600 px-10 py-1 my-2 mt-2 mx-auto flex items-center'>Submit</button>
+           <button type="submit" className='text-white border-2  hover:bg-pink-600 hover:border-pink-600 px-10 py-2 my-2 mt-3 mx-auto flex items-center'>Submit</button>
            <div className="mx-auto text-pink-600">
               {result ? <Result/> : null}
            </div>

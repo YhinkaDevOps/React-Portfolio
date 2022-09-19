@@ -13,8 +13,6 @@ const Footer = () => {
         <span className='text-gray-400 flex items-center justify-center text-center p-2 '>
           <i class="fas fa-copyright"></i> &nbsp;  2022 Bakare Olayinka. All Rights Reserved. 
         </span>
-         
-
     </div>
   )
 }

@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#060911] text-gray-300 shadow-[1px 15px 17px -8px rgba(0,0,0,0.5)] ' >
         <div className='mx-5'>
-            <button className='text-xl md:text-lg xl:text-xl 2xl:text-2xl text-pink-600 xs:text-xl'><Link to= "home" smooth={true}  duration={500} >Olayinka</Link></button>
+            <button className='text-xl md:text-lg xl:text-xl 2xl:text-2xl text-pink-600 xs:text-xl hover:text-pink-400'><Link to= "home" smooth={true}  duration={500} >Olayinka</Link></button>
         </div>
 
           {/* Menu */}

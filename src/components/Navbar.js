@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import { FaTimes, FaBars, FaLinkedinIn, FaGithub } from 'react-icons/fa';
-import { BsFillPersonLinesFill } from 'react-icons/bs'; 
+import { BsFillPersonLinesFill, BsEnvelope } from 'react-icons/bs'; 
 import  { Link} from  'react-scroll'
 import resume from '../Olayinka_Resume.pdf';
 
@@ -8,9 +8,9 @@ const Navbar = () => {
   const [nav, setNav] = useState(false)
   const handleClick = () => setNav(!nav)
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300 ' >
+    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#060911] text-gray-300 shadow-[1px 15px 17px -8px rgba(0,0,0,0.5)] ' >
         <div className='mx-5'>
-            <h1 className='text-xl md:text-lg xl:text-xl 2xl:text-2xl text-pink-600 xs:text-xl'><Link to= "/" smooth={true}  duration={500} >Olayinka</Link></h1>
+            <button className='text-xl md:text-lg xl:text-xl 2xl:text-2xl text-pink-600 xs:text-xl'><Link to= "home" smooth={true}  duration={500} >Olayinka</Link></button>
         </div>
 
           {/* Menu */}
@@ -49,14 +49,17 @@ const Navbar = () => {
         {/* Social-Icons */}
         <div className=' hidden md:flex fixed flex-col top-[35%] left-0'>
           <ul>
-            <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-5px] duration-300 bg-blue-600'>
-              <a className='flex justify-between items-center w-full text-gray-300' href="https://www.linkedin.com/in/olayinka-bakare-0a253815a/" target={"_blank"}>Linkedin <FaLinkedinIn size={30}/></a>
+            <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-5px] duration-300 bg-gray-900'>
+              <a className='flex justify-between items-center w-full text-gray-300 font-bold' href="https://www.linkedin.com/in/olayinka-bakare-0a253815a/" target={"_blank"}>Linkedin <FaLinkedinIn size={30}/></a>
             </li>
-             <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-5px] duration-300 bg-gray-900'>
-              <a className='flex justify-between items-center w-full text-gray-300' href="https://github.com/YhinkaDevOps" target={"_blank"}>Github <FaGithub size={30}/></a>
+             <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-5px] duration-300 bg-[#1e3a8a]'>
+              <a className='flex justify-between items-center w-full text-gray-300 font-bold' href="https://github.com/YhinkaDevOps" target={"_blank"}>Github <FaGithub size={30}/></a>
             </li>
              <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-5px] duration-300 bg-pink-900'>
-              <a className='flex justify-between items-center w-full text-gray-300' href={resume} download>Resume <BsFillPersonLinesFill size={30}/></a>
+              <a className='flex justify-between items-center w-full text-gray-300 font-bold' href="mailto:yinkabakare30@gmail.com" target={"_blank"}>Email<BsEnvelope size={30}/></a>
+            </li>
+             <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-5px] duration-300 bg-blue-600'>
+              <a className='flex justify-between items-center w-full text-gray-300 font-bold' href={resume} download>Resume <i class="fa-solid fa-download"></i><BsFillPersonLinesFill size={30}/></a>
             </li>
           </ul>
         </div>

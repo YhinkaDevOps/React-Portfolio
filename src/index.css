@@ -123,4 +123,33 @@ margin-top: 50px;
 }
 
 
+.footer{
+  background-color:#060911;
+}
+.socials{
+  padding: 1rem 0 1rem 0;
+}
+
+.socials li{
+    margin: 0 10px;
+}
+
+.socials a{
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 50%;
+    color:white;
+}
+
+
+.socials a i{
+    font-size: 1.5rem;
+    width: 20px;
+    transition: color .1s ease;
+}
+
+.socials a:hover i{
+    color: #db2777;
+}
+
 

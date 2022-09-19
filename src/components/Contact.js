@@ -35,15 +35,12 @@ const Contact = () => {
             </div>
             <p className='text-gray-300 pt-4'>Email: yinkabakare30@gmail.com</p>
             <p className='text-gray-300 py-1 pb-2'>Phone: +2348130300335</p>
-            <div className=' flex space-x-3 mb-2 md:hidden   '>
-              <a className='social_icon' href="https://github.com/YhinkaDevOps" target={"_blank"}><BsGithub color='white' size={20}/></a>
-              <a className='social_icon' href="https://www.linkedin.com/in/olayinka-bakare-0a253815a/" target={"_blank"}><BsLinkedin color='white' size={20}/></a>
-            </div>
+           
            <input className='bg-[#ccd6f6] my-2 p-2  ' type="text" placeholder='Name' name='name' required  />
            <input className="bg-[#ccd6f6] p-2 " type="text" name="subject" id="" placeholder='Subject'/>
            <input className='my-2 p-2 bg-[#ccd6f6]' type="email" placeholder='Email' name='email' required  />
            <textarea className='bg-[#ccd6f6] p-2' name="message" rows="8" placeholder='Message'required></textarea>
-           <button type="submit" className='text-white border-2  hover:bg-pink-600 hover:border-pink-600 px-10 py-2 my-2 mt-3 mx-auto flex items-center'>Submit</button>
+           <button type="submit" className='text-white border-2  hover:bg-pink-600 hover:border-pink-600 px-10 py-2 my-2 mt-7 mx-auto flex items-center rounded-full '>Contact Me</button>
            <div className="mx-auto text-pink-600">
               {result ? <Result/> : null}
            </div>

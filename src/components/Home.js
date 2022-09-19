@@ -21,13 +21,13 @@ const Home = () => {
                 building responsive front-end web applications.
             </p>
           <div className='flex space-x-5 '>
-            <button className=' text-white group px-1 py-1 my-2 flex items-center hover:border-pink-600 hover:bg-pink-600 rounded-md Home-btn sm:text-sm md:text-sm xs:text-xs lg:text-base xl:text-xl xl:py-3 2xl:py-4 2xl:px-4 2xl:text-2xl'>
+            <button className=' text-white group px-1 py-1 my-2  flex items-center hover:border-pink-600 hover:bg-pink-600 rounded-md Home-btn sm:text-sm md:text-sm xs:text-xs lg:text-base xl:text-lg xl:py-3 2xl:py-4 2xl:px-4 2xl:text-2xl'>
               <Link to='project' smooth={true} duration={500}>
                 View Projects
               </Link>
             
             </button>
-            <a href={resume} download className='flex  md:hidden text-white group px-2 py-2 my-2  items-center hover:border-pink-600 hover:bg-pink-600 rounded-md Home-btn sm:text-sm md:text-sm xs:text-xs lg:text-base xl:text-xl xl:py-3 2xl:py-4 2xl:px-4 2xl:text-2xl'>
+            <a href={resume} download className='flex  md:hidden text-white group px-2 py-2 my-2  items-center hover:border-pink-600 hover:bg-pink-600 rounded-md Home-btn sm:text-sm md:text-sm xs:text-xs lg:text-base xl:text-lg xl:py-3 2xl:py-4 2xl:px-4 2xl:text-2xl'>
               Download Resume
             </a>
           </div>

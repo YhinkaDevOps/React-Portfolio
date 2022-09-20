@@ -1,0 +1,155 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap'); /*''Lato', sans-serif*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700;900&display=swap');/*Raleway*/
+
+@layer base {
+  body {
+    font-family: 'Lato', sans-serif;
+  }
+  li{
+    @apply px-2;
+    cursor: pointer;
+  }
+
+}
+
+.content-div {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+}
+.content-div:hover {
+  background-image: linear-gradient(
+        to right,
+        rgba(112, 157, 255, 0.8),
+        hsla(242, 74%, 61%, 0.8)   
+    )!important;
+}
+
+input, textarea{
+  outline: none;
+}
+
+.Home-btn{
+  border: 1px solid white;
+}
+
+.Menu_links:hover{
+    border-bottom: 1px solid rgb(233, 88, 112);
+    transition: 0.5s;
+}
+
+.social_icon:hover{
+  opacity: 0.5;
+}
+
+.home-img img{
+  object-fit: cover;
+}
+
+.name_span{
+  color: #db2777
+}
+
+@media (min-width: 1536px) {
+  .home-img img {
+      border-radius: 90%;
+    }
+}
+@media (min-width: 1280px) and (max-width: 1535px) {
+  .home-img img{
+    border-radius: 80%;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .home-img img {
+    border-radius: 70%;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 1023px) {
+  .home-img img {
+    border-radius: 60%;
+  }
+}
+
+@media (min-width: 200px) and (max-width: 766px) {
+  .home-img img {
+    border-radius: 55%;
+  }
+}
+
+@media (max-width: 412px) {
+  .home-img img {
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 280px) {
+ .description{
+  line-height: 17px;
+ }
+ 
+ button, a {
+  font-size: 0.9rem;
+  text-align: center;
+  line-height: 17px;
+ }
+
+.homebio-container{
+  margin-bottom: 10px;
+}
+
+.about-intro{
+  font-size: 20px;
+  line-height: 22px;
+  margin-top: 30px;
+}
+
+.about{
+padding-bottom:15px ;
+margin-top: 50px;
+}
+
+.about-info{
+  margin-bottom:80px
+}
+
+}
+
+
+.footer{
+  background-color:#060911;
+}
+.socials{
+  padding: 1rem 0 1rem 0;
+}
+
+.socials li{
+    margin: 0 10px;
+}
+
+.socials a{
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 50%;
+    color:white;
+}
+
+
+.socials a i{
+    font-size: 1.5rem;
+    width: 20px;
+    transition: color .1s ease;
+}
+
+.socials a:hover i{
+    color: #db2777;
+}
+
+

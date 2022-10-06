@@ -16,7 +16,7 @@ const Home = () => {
                I'm Bakare <span className='name_span'>Olayinka</span>
             </h1>
             <h2 className='text-2xl sm:text-4xl md:text-3xl font-bold text-[#8892b0] leading-7 lg:text-4xl 2xl:text-7xl'>
-                 A Front-End Developer.
+               Front-End Developer.
             </h2>
             <p className='text-[#ccd6f6] py-4 max-w-[800px] leading-4 xl:text-xl xl:max-w[800px] xs:text-base lg:text-lg 2xl:text-2xl 2xl:max-w-[1000px] description' >
                 I’m a front-end developer specializing in building exceptional digital experiences. Currently, I’m focused on

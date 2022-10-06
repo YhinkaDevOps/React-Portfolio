@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <div name='home' className='bg-[#0a192f] w-full h-screen'>
       {/* Container */}
-      <div className='max-w-[1700px] mx-auto px-10 flex flex-col-reverse h-full md:flex-row items-center '>
+      <div className='max-w-[1700px] mx-auto px-10 flex flex-col-reverse h-full md:flex-row items-center  '>
         <div className='homebio-container xl:mx-auto 2xl:mx-auto md:mt-12 sm:mb-5 lg:mt-12 2xl:ml-12 xl:ml-11 flex flex-col  mx-auto md:w-3/5 md:ml-10 xs:space-y-0 xs:mb-[40px] space-y-1 '>
             <p className='text-pink-600 text-3xl sm:text-4xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-7xl'>Hello 👋</p>
              

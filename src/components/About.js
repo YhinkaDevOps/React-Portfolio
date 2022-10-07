@@ -17,14 +17,18 @@ const About = () => {
                 <div className='sm:text-right text-4xl font-bold about-intro '>
                     <p>Hi. I'm Olayinka, nice to meet you. Please take a look around.</p>
                 </div>
-                <div className='about-info' >
-                    <p>
-                        I am passionate about building excellent software that improves
-                        the lives of those around me. I specialize in creating software
-                        for clients ranging from individuals and small-businesses all the
-                        way to large enterprise corporations. What would you do if you had
-                        a software expert available at your fingertips?
+                <div className='about-info space-y-3 ' >
+                    <p >
+                       A self taught frontend developer located in Lagos, Nigeria. Also innovative, detailed oriented, 
+                       and enthusistic about combining beautifully structured codes with awesome interface and learning about
+                       new technologies. I develop and build web interfaces from simple landing pages to multi-paged web applications
+                         so that it is functional and user-friendly. 
                     </p>
+
+                    <p>
+                        
+                    </p>
+                   
                 </div>
 
             </div>

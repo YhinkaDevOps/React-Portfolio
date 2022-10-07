@@ -3,7 +3,7 @@ import realestate from "../image/realestate.jpg";
 import project1 from "../image/clock.png";
 import project2 from "../image/calculator.png";
 import project5 from "../image/project1.png";
-import project4 from '../image/youtube.png';
+import project4 from '../image/portfolio.png';
 
 const Project = () => {
   return (
@@ -83,12 +83,12 @@ const Project = () => {
                     </div>
                   </div>
 
-                    <div 
+                    <div  
                       style={{backgroundImage: `url(${project4})`}}
-                      className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div '>
+                      className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div object-cover '>
                       <div className='opacity-0 group-hover:opacity-100'>
-                        <span className='text-2xl font-bold text-white tracking-wider'>
-                        Youtube Clone - API
+                        <span className='text-2xl font-bold text-white flex justify-center items-center'>
+                        Portfolio
                         </span>
                         <div className='pt-8 text-center'>
                           <a href="https://lucent-malasada-90508b.netlify.app/" target="_blank">

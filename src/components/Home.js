@@ -16,11 +16,11 @@ const Home = () => {
                I'm Bakare <span className='name_span'>Olayinka</span>
             </h1>
             <h2 className='text-2xl sm:text-4xl md:text-3xl font-bold text-[#8892b0] leading-7 lg:text-4xl 2xl:text-7xl'>
-               Front-End Developer.
+               Frontend Developer.
             </h2>
             <p className='text-[#ccd6f6] py-4 max-w-[800px] leading-4 xl:text-xl xl:max-w[800px] xs:text-base lg:text-lg 2xl:text-2xl 2xl:max-w-[1000px] description' >
-                I’m a front-end developer specializing in building exceptional digital experiences. Currently, I’m focused on
-                building responsive front-end web applications.
+                I’m a frontend developer specializing in building exceptional digital experiences that are aesthetically pleasing for people.
+                Currently focusing on building responsive frontend web applications.
             </p>
           <div className='flex space-x-5 '>
             <button className=' text-white group px-1 py-1 my-2  flex items-center hover:border-pink-600 hover:bg-pink-600 rounded-md Home-btn sm:text-sm md:text-sm xs:text-xs lg:text-base xl:text-lg xl:py-3 2xl:py-4 2xl:px-4 2xl:text-2xl'>

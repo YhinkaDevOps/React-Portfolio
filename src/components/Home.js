@@ -34,7 +34,7 @@ const Home = () => {
             </a>
           </div>
         </div>
-          <div className='home-img mx-auto w-1/2 xs:mb-10 xl:ml-5 sm:w-[24%] md:w-[24%] lg:w-[24%] xl:w-[25%] xl:mt-12  '>
+          <div className='home-img mx-auto w-1/2 xl:ml-5 sm:w-[24%] md:w-[24%] lg:w-[24%] xl:w-[25%] xl:mt-12  '>
             <img src={Yinkaimg} alt="Homeimage" />
           </div>
        </div>

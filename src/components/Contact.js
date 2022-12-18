@@ -1,5 +1,4 @@
 import  React, { useState } from "react";
-import { BsGithub,BsLinkedin } from "react-icons/bs";
 import emailjs from '@emailjs/browser';
 
 const Result = () =>{

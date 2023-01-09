@@ -13,17 +13,3 @@ Disallow: /
 
 User-agent: *
 Disallow: /
-User-agent: Googlebot
-Crawl-delay: 300
-Disallow: 
-
-User-agent: Yandex
-Allow: /index.html
-Disallow: /
-
-User-agent: bingbot
-Allow: /tools
-Disallow: /
-
-User-agent: *
-Disallow: /

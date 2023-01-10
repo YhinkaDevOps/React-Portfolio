@@ -5,7 +5,7 @@ import JavaScript from "../image/javascript.png";
 import REACT from "../image/react.png";
 import Tailwind from "../image/tailwind.png";
 import Github from "../image/github.png";
-import MaterialUi from "../image/MUI.png";
+import SASS from "../image/sass.png";
 import Bootstrap from "../image/Bootstrap.png";
 
 const Skills = () => {
@@ -48,8 +48,8 @@ const Skills = () => {
             <p className="p-5 bold">BOOTSTRAP</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-200 py-5">
-            <img className="w-10 mx-auto" src={MaterialUi} alt="material__ui" />
-            <p className="p-5">MATERIAL-UI</p>
+            <img className="w-10 mx-auto" src={SASS} alt="material__ui" />
+            <p className="p-5">SASS</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-200 py-5">
             <img className="w-10 mx-auto" src={Github} alt="github" />

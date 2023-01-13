@@ -1,9 +1,7 @@
 import React from "react";
 import realestate from "../image/realestate.jpg";
-import project1 from "../image/clock.png";
-import project2 from "../image/calculator.png";
-import project5 from "../image/project1.png";
-import project4 from "../image/portfolio.png";
+import squazzle from "../image/squazzle.png";
+import lendsqr from "../image/lendsqr.png";
 
 const Project = () => {
   return (
@@ -21,58 +19,74 @@ const Project = () => {
           {/* container */}
           <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 ">
             <div
-              style={{ backgroundImage: `url(${project1})` }}
+              style={{ backgroundImage: `url(${squazzle})` }}
               className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
             >
-              <div className="opacity-0 group-hover:opacity-100">
-                <span className="text-2xl font-bold text-white flex justify-center items-center">
-                  Clock
+              <div className="opacity-0 group-hover:opacity-100 ">
+                <span className="text-lg font-bold text-white flex justify-center items-center mt-1">
+                  Squazzle
                 </span>
-                <div className="pt-8 text-center">
+                <span className="text-white text-[11px] mt-1 flex justify-center items-center px-4 leading-4">
+                  A squatting platform that allows people to accommodate others
+                  for an agreed period of time
+                </span>
+                <div className="text-white text-[11px] pt-4 flex gap-2  justify-center items-center ">
+                  <span className="bg-[#696869] p-1 rounded-lg">Figma</span>
+                  <span className="bg-[#696869] p-1 rounded-lg">PWA</span>
+                  <span className="bg-[#696869] p-1 rounded-lg">React</span>
+                  <span className="bg-[#696869] p-1 rounded-lg">CSS</span>
+                  <span className="bg-[#696869] p-1 rounded-lg">Tailwind</span>
+                </div>
+                <div className="pt-6 pb-3 text-center">
                   <a
-                    href="https://legendary-paprenjak-55b05a.netlify.app/"
+                    href="https://stutern-squazzle.web.app/"
                     target={`_blank`}
+                    className="text-center rounded-lg px-2 py-1 m-2 bg-white text-gray-700 font-bold text-sm hover:bg-pink-600 hover:text-white"
                   >
-                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-pink-600 hover:text-white">
-                      Demo
-                    </button>
+                    Demo
                   </a>
                   <a
-                    href="https://github.com/YhinkaDevOps/Clock-VanillaJs.git"
+                    href="https://github.com/StuternHousemanship/SQUAZZLE-Frontend-Project-Team1.1/tree/staging"
                     target={`_blank`}
+                    className="text-center rounded-lg px-2 py-1 m-2 bg-white text-gray-700 font-bold text-sm hover:bg-pink-600 hover:text-white"
                   >
-                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-pink-600 hover:text-white">
-                      Code
-                    </button>
+                    Code
                   </a>
                 </div>
               </div>
             </div>
 
             <div
-              style={{ backgroundImage: `url(${project2})` }}
+              style={{ backgroundImage: `url(${lendsqr})` }}
               className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
             >
               <div className="opacity-0 group-hover:opacity-100">
-                <span className="text-2xl font-bold text-white flex justify-center items-center">
-                  Calculator
+                <span className="text-lg font-bold text-white flex justify-center items-center mt-1">
+                  Lendsqr
                 </span>
-                <div className="pt-8 text-center">
+                <span className="text-white text-[11px] mt-1 flex justify-center items-center px-4 leading-4">
+                  Empowering the smartest lenders
+                </span>
+                <div className="text-white text-[11px] pt-4 flex gap-2  justify-center items-center ">
+                  <span className="bg-[#696869] p-1 rounded-lg">Figma</span>
+                  <span className="bg-[#696869] p-1 rounded-lg">React</span>
+                  <span className="bg-[#696869] p-1 rounded-lg">Typescript</span>
+                  <span className="bg-[#696869] p-1 rounded-lg">Sass</span>
+                </div>
+                <div className="pt-6 pb-3 text-center">
                   <a
-                    href="https://exquisite-dragon-9b3423.netlify.app/"
+                    href="https://lateef-bakare-lendsqr-fe-test.netlify.app/"
                     target={`_blank`}
+                    className="text-center rounded-lg px-2 py-1 m-2 bg-white text-gray-700 font-bold text-sm hover:bg-pink-600 hover:text-white"
                   >
-                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-pink-600 hover:text-white">
-                      Demo
-                    </button>
+                    Demo
                   </a>
                   <a
-                    href="https://github.com/YhinkaDevOps/Calculator-VanillaJs.git"
+                    href="https://github.com/YhinkaDevOps/lendsqr-fe-test"
                     target={`_blank`}
+                    className="text-center rounded-lg px-2 py-1 m-2 bg-white text-gray-700 font-bold text-sm hover:bg-pink-600 hover:text-white"
                   >
-                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-pink-600 hover:text-white">
                       Code
-                    </button>
                   </a>
                 </div>
               </div>
@@ -83,17 +97,17 @@ const Project = () => {
               className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
             >
               <div className="opacity-0 group-hover:opacity-100">
-                <span className="text-2xl font-bold text-white tracking-wider">
-                  React JS Application
+                <span className="text-lg font-bold text-white flex justify-center items-center mt-1 ">
+                  Bakare Ecommerce
                 </span>
                 <div className="pt-8 text-center">
                   <a href="/">
-                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-pink-600 hover:text-white">
+                    <button className="text-center rounded-lg px-2 py-1 m-2 bg-white text-gray-700 font-bold text-base hover:bg-pink-600 hover:text-white">
                       Demo
                     </button>
                   </a>
                   <a href="/">
-                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-pink-600 hover:text-white">
+                    <button className="text-center rounded-lg px-2 py-1 m-2 bg-white text-gray-700 font-bold text-base hover:bg-pink-600 hover:text-white">
                       Code
                     </button>
                   </a>
@@ -102,56 +116,29 @@ const Project = () => {
             </div>
 
             <div
-              style={{ backgroundImage: `url(${project4})` }}
+              style={{ backgroundImage: `url(${realestate})` }}
               className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div object-cover "
             >
               <div className="opacity-0 group-hover:opacity-100">
-                <span className="text-2xl font-bold text-white flex justify-center items-center">
-                  Portfolio
+                <span className="text-lg font-bold text-white flex justify-center items-center mt-1 ">
+                  In progress!
                 </span>
                 <div className="pt-8 text-center">
                   <a
-                    href="https://lucent-malasada-90508b.netlify.app/"
+                    href="/"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-pink-600 hover:text-white">
+                    <button className="text-center rounded-lg px-2 py-1 m-2 bg-white text-gray-700 font-bold text-base hover:bg-pink-600 hover:text-white">
                       Demo
                     </button>
                   </a>
                   <a
-                    href="https://github.com/YhinkaDevOps/Youtube-API"
+                    href="/"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-pink-600 hover:text-white">
-                      Code
-                    </button>
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div
-              style={{ backgroundImage: `url(${project5})` }}
-              className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
-            >
-              <div className="opacity-0 group-hover:opacity-100">
-                <span className="text-2xl font-bold text-white  flex justify-center items-center ">
-                  IMDB Movie - API
-                </span>
-                <div className="pt-8 text-center">
-                  
-                  <a href="#" target="_blank" rel="noreferrer">
-                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-pink-600 hover:text-white">
-                      Demo
-                    </button>
-                  </a>
-                  <a
-                    href="https://github.com/YhinkaDevOps/MovieApiFetch.git"
-                    target={`_blank`}
-                  >
-                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-pink-600 hover:text-white">
+                    <button className="text-center rounded-lg px-2 py-1 m-2 bg-white text-gray-700 font-bold text-base hover:bg-pink-600 hover:text-white">
                       Code
                     </button>
                   </a>
@@ -164,17 +151,40 @@ const Project = () => {
               className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
             >
               <div className="opacity-0 group-hover:opacity-100">
-                <span className="text-2xl font-bold text-white tracking-wider">
-                  React JS Application
+                <span className="text-lg font-bold text-white flex justify-center items-center mt-1">
+                  In Progress!
+                </span>
+                <div className="pt-8 text-center">
+                  <a href="/" target="_blank" rel="noreferrer">
+                    <button className="text-center rounded-lg px-2 py-1 m-2 bg-white text-gray-700 font-bold text-base hover:bg-pink-600 hover:text-white">
+                      Demo
+                    </button>
+                  </a>
+                  <a href="/" target="_blank" rel="noreferrer">
+                    <button className="text-center rounded-lg px-2 py-1 m-2 bg-white text-gray-700 font-bold text-base hover:bg-pink-600 hover:text-white">
+                      Code
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div
+              style={{ backgroundImage: `url(${realestate})` }}
+              className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+            >
+              <div className="opacity-0 group-hover:opacity-100">
+                <span className="text-lg font-bold text-white flex justify-center items-center mt-1">
+                  In Progress!
                 </span>
                 <div className="pt-8 text-center">
                   <a href="/">
-                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-pink-600 hover:text-white">
+                    <button className="text-center rounded-lg px-2 py-1 m-2 bg-white text-gray-700 font-bold text-base hover:bg-pink-600 hover:text-white">
                       Demo
                     </button>
                   </a>
                   <a href="/">
-                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-pink-600 hover:text-white">
+                    <button className="text-center rounded-lg px-2 py-1 m-2 bg-white text-gray-700 font-bold text-base hover:bg-pink-600 hover:text-white">
                       Code
                     </button>
                   </a>

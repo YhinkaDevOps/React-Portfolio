@@ -39,7 +39,7 @@ const Project = () => {
                 </div>
                 <div className="pt-6 pb-3 text-center">
                   <a
-                    href="https://stutern-squazzle.web.app/"
+                    href="https://squazzle-stutern.web.app/"
                     target={`_blank`}
                     className="text-center rounded-lg px-2 py-1 m-2 bg-white text-gray-700 font-bold text-sm hover:bg-pink-600 hover:text-white"
                   >

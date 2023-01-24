@@ -21,7 +21,7 @@ const Contact = () => {
 
   return (
     <div name='contact' className= 'w-full h-screen bg-[#0a192f] flex justify-center items-center p-4'>
-         <ToastContainer autoClose={1500} />
+         <ToastContainer autoClose={1500} pauseOnHover={false} />
         <form onSubmit={sendEmail} className='flex flex-col max-w-[600px] w-full mt-12 '>
             <div className='mt-5 sm:text-center text-left' >
               <p className='text-4xl font-bold inline border-b-4 border-pink-600 text-gray-300 '>Contact Me</p>

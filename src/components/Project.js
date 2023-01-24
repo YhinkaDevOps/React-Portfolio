@@ -2,6 +2,7 @@ import React from "react";
 import realestate from "../image/realestate.jpg";
 import squazzle from "../image/squazzle.png";
 import lendsqr from "../image/lendsqr.png";
+import medium from "../image/medium.png";
 
 const Project = () => {
   return (
@@ -95,23 +96,36 @@ const Project = () => {
             </div>
 
             <div
-              style={{ backgroundImage: `url(${realestate})` }}
+              style={{ backgroundImage: `url(${medium})` }}
               className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
             >
               <div className="opacity-0 group-hover:opacity-100">
                 <span className="text-lg font-bold text-white flex justify-center items-center mt-1 ">
-                  Bakare Ecommerce
+                  Manage
                 </span>
+                <span className="text-white text-[11px] mt-1 flex justify-center items-center px-4 leading-4">
+                  Bring everyone together to build better products
+                </span>
+                <div className="text-white text-[11px] pt-4 flex gap-2  justify-center items-center ">                  
+                  <span className="bg-[#696869] p-1 rounded-lg">Html</span>
+                  <span className="bg-[#696869] p-1 rounded-lg">
+                    CSS
+                  </span>
+                  <span className="bg-[#696869] p-1 rounded-lg">
+                    Javascript
+                  </span>
+                  <span className="bg-[#696869] p-1 rounded-lg">Tailwind</span>
+                </div>
                 <div className="pt-6 pb-3 text-center">
                   <a
-                    href="/"
+                    href="https://yhinkadevops.github.io/LandingPage-with-TailwindCSS/"
                     target={`_blank`}
                     className="text-center rounded-lg px-2 py-1 m-2 bg-white text-gray-700 font-bold text-sm hover:bg-pink-600 hover:text-white"
                   >
                     Demo
                   </a>
                   <a
-                    href="/"
+                    href="https://github.com/YhinkaDevOps/LandingPage-with-TailwindCSS"
                     target={`_blank`}
                     className="text-center rounded-lg px-2 py-1 m-2 bg-white text-gray-700 font-bold text-sm hover:bg-pink-600 hover:text-white"
                   >
@@ -127,7 +141,10 @@ const Project = () => {
             >
               <div className="opacity-0 group-hover:opacity-100">
                 <span className="text-lg font-bold text-white flex justify-center items-center mt-1 ">
-                  In progress!
+                  Bonik
+                </span>
+                <span className="text-white text-[11px] mt-1 flex justify-center items-center px-4 leading-4">
+                  A multi-purpose E-commerce Application
                 </span>
                 <div className="pt-6 pb-3 text-center">
                   <a

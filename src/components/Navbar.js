@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { FaTimes, FaBars, FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { BsFillPersonLinesFill, BsEnvelope } from "react-icons/bs";
 import { Link } from "react-scroll";
-import resume from "../Olayinka_Resume.pdf";
 import Logo from "../image/olayinka.jpg";
 
 const Navbar = () => {
@@ -124,8 +123,9 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-5px] duration-300 bg-blue-600">
             <a
               className="flex justify-between items-center w-full text-gray-300 font-bold"
-              href={resume}
-              download
+              href="http://drive.google.com/file/d/1pm2Hkkivj6L3GDulaFOkHHc1qv0RcC_O/view?usp=drivesdk" 
+              target="_blank"
+              rel="noreferrer"
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>

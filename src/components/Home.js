@@ -18,7 +18,7 @@ const Home = () => {
           <h2 className="text-2xl sm:text-4xl md:text-3xl font-bold text-[#8892b0] leading-7 lg:text-4xl 2xl:text-7xl">
             Frontend Developer.
           </h2>
-          <p className="text-[#ccd6f6] py-4 max-w-[800px] leading-4 xl:text-xl xl:max-w[800px] xs:text-base lg:text-lg 2xl:text-2xl 2xl:max-w-[1000px] description">
+          <p className="text-[#ccd6f6] py-2 md:py-4 max-w-[800px] leading-5 xl:text-xl xl:max-w[800px] xs:text-base lg:text-lg 2xl:text-2xl 2xl:max-w-[1000px] description">
             I’m a frontend developer specializing in building exceptional
             digital experiences that are aesthetically pleasing for people.
             Currently focusing on building responsive frontend web applications.

@@ -123,7 +123,7 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-5px] duration-300 bg-blue-600">
             <a
               className="flex justify-between items-center w-full text-gray-300 font-bold"
-              href="http://drive.google.com/file/d/1qeE6m50HzfInFYB_kUGJYWFWqrOOs54H/view?usp=drivesdk" 
+              href="https://drive.google.com/file/d/1Gsdm9W6fc9uFCcHq8vcA3ovGjTM_F9vm/view"
               target="_blank"
               rel="noreferrer"
             >

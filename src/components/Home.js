@@ -30,7 +30,7 @@ const Home = () => {
               </Link>
             </button>
             <a
-              href="http://drive.google.com/file/d/1qeE6m50HzfInFYB_kUGJYWFWqrOOs54H/view?usp=drivesdk"
+              href="https://drive.google.com/file/d/1Gsdm9W6fc9uFCcHq8vcA3ovGjTM_F9vm/view"
               target="_blank"
               rel="noreferrer"
               className="flex md:hidden text-white group px-2 py-2 my-2  items-center hover:border-pink-600 hover:bg-pink-600 rounded-md Home-btn sm:text-sm md:text-sm xs:text-xs lg:text-base xl:text-lg xl:py-3 2xl:py-4 2xl:px-4 2xl:text-2xl"

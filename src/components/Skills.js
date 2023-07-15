@@ -5,8 +5,9 @@ import JavaScript from "../image/javascript.png";
 import REACT from "../image/react.png";
 import Tailwind from "../image/tailwind.png";
 import Github from "../image/github.png";
+import Nuxt from "../image/nuxt.png";
 import SASS from "../image/sass.png";
-import Bootstrap from "../image/Bootstrap.png";
+// import Bootstrap from "../image/Bootstrap.png";
 
 const Skills = () => {
   return (
@@ -40,13 +41,17 @@ const Skills = () => {
             <p className="p-5">REACT</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-200 py-5">
+            <img className="w-10 mx-auto" src={Nuxt} alt="Nuxt" />
+            <p className="p-5 bold">NUXT</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-200 py-5">
             <img className="w-10 mx-auto" src={Tailwind} alt="tailwind" />
             <p className="p-5 bold">TAILWIND</p>
           </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-200 py-5">
+          {/* <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-200 py-5">
             <img className="w-10 mx-auto" src={Bootstrap} alt="boostrap" />
             <p className="p-5 bold">BOOTSTRAP</p>
-          </div>
+          </div> */}
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-200 py-5">
             <img className="w-10 mx-auto" src={SASS} alt="material__ui" />
             <p className="p-5">SASS</p>

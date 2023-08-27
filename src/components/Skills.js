@@ -11,7 +11,7 @@ import SASS from "../image/sass.png";
 
 const Skills = () => {
   return (
-    <div name="skills" className="bg-[#0a192f] w-full h-screen text-gray-300">
+    <div name="skills" className="bg-[#0a192f] w-full h-[100vh] text-gray-300">
       {/* Container */}
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="sm:text-center text-left pb-4 mt-[90px]">
